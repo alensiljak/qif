@@ -8,7 +8,7 @@ This project only produces a class library (*"}.dll). Just drop this library in 
 Here's a sample usage (If you need a live example, you can download ApiTest source code included in this project):
 
 **C# / .NET Example**
-```chsarp
+```csharp
 // This returns a QifDom object (defined in the QifImport namespace). The QifDom represents all transactions found in the QIF file.
 QifDom qifDom = QifDom.Import.ImportFile(@"c:\quicken.qif");
 // --or--
@@ -47,3 +47,6 @@ Sub Sample()
 End Sub
 ```
 All transactions present in the DOM are written according to the QIF file format specification. Dates and numbers should be written according to globalization standards.
+
+# NuGet
+Releases are published on NuGet: [http://www.nuget.org/packages/qifapi](http://www.nuget.org/packages/qifapi)
