@@ -49,4 +49,4 @@ End Sub
 All transactions present in the DOM are written according to the QIF file format specification. Dates and numbers should be written according to globalization standards.
 
 # NuGet
-Releases are published on NuGet: [http://www.nuget.org/packages/qifapi](http://www.nuget.org/packages/qifapi)
+Releases are published on NuGet: [http://www.nuget.org/packages/qifapi](http://www.nuget.org/packages/qifapi) after every successful build on AppVeyor. Build Status: [![Build status](https://ci.appveyor.com/api/projects/status/bv78m70dsop3i273/branch/master?svg=true)](https://ci.appveyor.com/project/ShaneWalters/qif/branch/master)
